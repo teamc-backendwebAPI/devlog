@@ -5,7 +5,27 @@
 - ユーザーが料理名を入れたらその調理方法がかえってくるwebアプリ
 
 ## 想定されるwebAPI
+### Edamam
+下のURLはEdamamが提供しているレシピ検索用のwebAPIドキュメントで、このAPIを使用することでEdamamのデータベースからレシピを検索し、取得することができる。以下要約。
+
+1. エンドポイント
+- https://api.edamam.com/search というエンドポイントを使っている。
+- クエリパラメータを使って検索要件を指定できる。
+2. 検索要件
+- 検索クエリにはキーワード、カテゴリ、栄養素がある。
+- JSONをみると複雑だが、料理の難易度や料理の種類も指定できる。
+3. レスポンス
+- APIはJSON形式
+- レスポンスにはレシピタイトル、説明、材料等が含まれる。
+4. 認証
+- APIキーを使用している。
+
+### webAPI
+https://developer.edamam.com/edamam-docs-recipe-api
+### リクエスト
 https://api.edamam.com/doc/open-api/recipe-search-v2.json
+
+
 
 ## 大まかな開発手順
 
