@@ -86,7 +86,7 @@ https://api.edamam.com/doc/open-api/recipe-search-v2.json
 #### エンドポイントの設計
 ```mermaid
 graph LR;
-    A[クライアント:ユーザーがカレーを入力] -- リクエスト --> B{サーバー:JSONファイルからカレーIDを取得};
+    A[クライアント:ユーザーがカレーを入力] -- リクエスト --> B[サーバー:JSONファイルからカレーIDを取得];
     B -- JSONレスポンス: クライアントにカレーの詳細データを表示 --> A;
 ```
 
