@@ -87,10 +87,9 @@ https://api.edamam.com/doc/open-api/recipe-search-v2.json
 ```mermaid
 graph LR;
     A[クライアント] -- リクエスト --> B{サーバー};
-    B -- JSONレスポンス: 全アイテムのリスト --> A;
-    B -- JSONレスポンス: 特定のアイテムの詳細 --> A;
-    B -- JSONレスポンス: 検索結果 --> A;
-    B -- JSONレスポンス: 集計データ --> A;
+    B -- JSONレスポンス: 検索 --> A;
+    B -- JSONレスポンス: 追加 --> A;
+    B -- JSONレスポンス: 削除 --> A;
 ```
 
 
