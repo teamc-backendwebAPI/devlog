@@ -103,3 +103,11 @@ graph LR;
 https://kanatanagano.github.io/Library-Application/
 
 ### 明日13:00からoviceでedamamを活用していきます
+
+## 3.3の開発議事録
+1. htmlとgoとの連携を可能にさせた
+2. ginをつかって高速化は面白そう
+
+### 他チームとの差別化
+a,bチームがDBを使っているのでこちらはフレームワークを使ってみよう
+
